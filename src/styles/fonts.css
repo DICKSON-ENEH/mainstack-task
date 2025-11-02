@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Degular";
+  src: url("/src/assets/fonts/Degular/Degular/Degular-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("/src/assets/fonts/Degular/Degular/Degular-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("/src/assets/fonts/Degular/Degular/Degular-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
