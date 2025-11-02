@@ -2,7 +2,7 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import type { Transaction, User, Wallet } from "../types";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const API_BASE_URL = "https://fe-task-api.mainstack.io";
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
