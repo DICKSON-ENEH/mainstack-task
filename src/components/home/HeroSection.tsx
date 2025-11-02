@@ -12,7 +12,7 @@ import Alert from "../icons/Alert";
 import { useApi } from "../../utils/types/hooks/useApi";
 import { useMemo, useState } from "react";
 import BioLink from "../icons/BioLink";
-import Store from "../icons/store";
+import Store from "../icons/Store";
 import MediaKit from "../icons/MediaKit";
 import Invoicing from "../icons/Invoicing";
 // import { useStateHistory } from "@mantine/hooks";
