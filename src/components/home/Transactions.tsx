@@ -14,7 +14,7 @@ import { Calendar } from "@mantine/dates";
 import { useApi } from "../../utils/types/hooks/useApi";
 
 const Transactions = () => {
-  const [selectedFilter, setSelectedFilter] = useState<string>("");
+  const [_selectedFilter, setSelectedFilter] = useState<string>("");
   const [isTypeOpen, setIsTypeOpen] = useState(false);
   const [isStatusOpen, setIsStatusOpen] = useState(false);
   const [isStartCalendarOpen, setIsStartCalendarOpen] = useState(false);
