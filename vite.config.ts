@@ -11,5 +11,6 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 10000,
     strictPort: true,
+    allowedHosts: ["mainstack-task-9hem.onrender.com", ".onrender.com"],
   },
 });
