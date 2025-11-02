@@ -5,9 +5,10 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import Apps from "../icons/Apps";
 import AppsWhite from "../icons/AppsWhite";
 import BioLink from "../icons/BioLink";
-import Store from "../icons/store";
+// import Store from "../icons/Store";
 import MediaKit from "../icons/MediaKit";
 import Invoicing from "../icons/Invoicing";
+import Store from "../icons/store";
 
 const AppsPopover = () => {
   const [isOpen, setIsOpen] = useState(false);
